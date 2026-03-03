@@ -11,7 +11,6 @@ public class Telco implements TelcoSubscription {
         this.unliCallText = unliCallText;
     }
 
-    // Getters
     public String getTelcoName() {
         return telcoName;
     }
@@ -26,23 +25,6 @@ public class Telco implements TelcoSubscription {
 
     public boolean getUnliCallText() {
         return unliCallText;
-    }
-
-    // Setters (optional, if you want mutability)
-    public void setTelcoName(String telcoName) {
-        this.telcoName = telcoName;
-    }
-
-    public void setPromoPrice(double promoPrice) {
-        this.promoPrice = promoPrice;
-    }
-
-    public void setDataAllowance(int dataAllowance) {
-        this.dataAllowance = dataAllowance;
-    }
-
-    public void setUnliCallText(boolean unliCallText) {
-        this.unliCallText = unliCallText;
     }
 
     @Override

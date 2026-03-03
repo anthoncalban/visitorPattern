@@ -5,7 +5,7 @@ public class TelcoPromo {
         Telco ditto = new Telco(8, 400, "Ditto", true);
 
         UsagePromo promo = new TelcoAllowance();
-        UniCallsTextOffer unli = new UniCallTextPackage();
+        UniCallsTextOffer unli = new UnliCallTextPackage();
 
         System.out.println("Smart Data Usage Offer and price: " +
                 smart.accept(promo, smart.getPromoPrice()));
